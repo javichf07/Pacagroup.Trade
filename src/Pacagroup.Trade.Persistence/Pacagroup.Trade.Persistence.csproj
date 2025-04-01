@@ -7,10 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contexts\" />
-    <Folder Include="Interceptors\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Seeders\" />
   </ItemGroup>
 
   <ItemGroup>
