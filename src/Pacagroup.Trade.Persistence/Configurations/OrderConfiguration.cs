@@ -19,8 +19,7 @@ namespace Pacagroup.Trade.Persistence.Configurations
                 .HasMaxLength(50)
                 .IsRequired();
 
-            builder.HasKey(x => x.Side)
-
+            builder.HasKey(x => x.Side);
         }
     }
 }
