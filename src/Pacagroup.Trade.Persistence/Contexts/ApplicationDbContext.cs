@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Pacagroup.Trade.Aplication.Interface.Persistence;
 using Pacagroup.Trade.Domain.Entities;
 using Pacagroup.Trade.Persistence.Interceptors;
 using System.Reflection;
 
 namespace Pacagroup.Trade.Persistence.Contexts
 {
-    public class ApplicationDbContext :DbContext
+    public class ApplicationDbContext :DbContext , IApplicationDbContext
     {
         public readonly AuditableEntitySaveChangesInterceptor _auditableEntitySaveChangesInterceptor;
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, 

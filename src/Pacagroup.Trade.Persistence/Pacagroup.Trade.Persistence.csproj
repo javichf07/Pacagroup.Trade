@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Pacagroup.Trade.Aplication.Interface\Pacagroup.Trade.Aplication.Interface.csproj" />
     <ProjectReference Include="..\Pacagroup.Trade.Domain\Pacagroup.Trade.Domain.csproj" />
   </ItemGroup>
 
